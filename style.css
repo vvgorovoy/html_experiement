@@ -1,0 +1,89 @@
+.story{
+    display: flex;
+    justify-content: center;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color: turquoise;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 3px;
+}
+.chapter10{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.imgs1{
+    display: flex;
+    justify-content: center;
+}
+.imgs2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgs3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+a:hover{
+    background-color:lightgoldenrodyellow;
+    border: 1px dashed black;
+    font-size: larger;
+    border-radius: 7px;
+    cursor: pointer;
+}
+b:hover{
+    background-color:brown;
+    color: yellow;
+    border: 3px solid red;
+    border-radius: 30px;
+}
+a:focus{
+    color: violet;
+}
+a:active{
+    color: white;
+}
+h2:hover{
+    border: 10px double green;
+    border-radius: 5px;
+    padding: 2px;
+}
+img:hover{
+    transform: scale(1.5);
+}
+h1:hover{
+    color: red;
+    background-color: yellow;
+    border-radius: 15px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+}
+#chapter0{
+    visibility: hidden;
+}
+#chapter1{
+    visibility: hidden;
+}
+#chapter2{
+    visibility: hidden;
+}
+#chapter3{
+    visibility: hidden;
+}
